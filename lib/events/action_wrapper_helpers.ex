@@ -170,6 +170,6 @@ defmodule AshEvents.Events.ActionWrapperHelpers do
         cs
       end
     end)
-    |> Ash.create!(authorize?: false, return_notifications?: true)
+    |> Ash.create!(authorize?: false)
   end
 end
